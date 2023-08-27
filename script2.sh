@@ -20,16 +20,6 @@ yum install xCAT -y
 
 
 #SOURCE
-#xcat_source="source /etc/profile.d/xcat.sh"
-#eval "$xcat_source"
-#source /etc/profile.d/xcat.sh
+source /etc/profile.d/xcat.sh
+cat /etc/profile.d/xcat.sh
 
-#xcat_dot=". /etc/profile.d/xcat.sh"
-#eval "$xcat_dot"
-./etc/profile.d/xcat.sh
-
-
-
-#YOU HAVE TO MANUALLY SOURCE  /etc/profile.d/xcat.sh
-#hostname_master=$(zenity --entry --title="source /etc/profile.d/xcat.sh" --text="xCAT has been installed successfully, type the command shown on the title on the terminal to unlock xCAT.")
-#whiptail --msgbox "xCAT has been installed successfully, please copy "source /etc/profile.d/xcat.sh" and paste it on the terminal, to unlock xCAT." 10 50
